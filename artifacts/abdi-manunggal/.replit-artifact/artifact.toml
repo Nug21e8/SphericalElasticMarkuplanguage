@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Abdi Manunggal — Sejuta Pesona"
+description = "Website profil statis Karang Taruna Abdi Manunggal dengan beranda elegan, slogan Sejuta Pesona, galeri foto unggulan, cerita komunitas, dan informasi kegiatan untuk masyarakat."
+version = "1.0.0"
+id = "artifacts/abdi-manunggal"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24071
+
+[services.development]
+run = "pnpm --filter @workspace/abdi-manunggal run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/abdi-manunggal", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/abdi-manunggal/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24071"
+BASE_PATH = "/"
