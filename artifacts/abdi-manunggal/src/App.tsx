@@ -174,11 +174,10 @@ function Hero() {
       <div className="absolute right-0 top-0 hidden h-full w-[35%] border-l border-[#f8f2e7]/10 lg:block" />
       <div className="relative mx-auto w-full max-w-[1320px] px-6 lg:px-12">
         <div className="mb-12 flex items-center justify-between lg:mb-20">
-          <div className="flex items-center gap-3 font-mono text-[10px] tracking-[0.12em] text-[#f5d688]"><span className="h-2 w-2 shrink-0 rounded-full bg-[#ed7455]" /> Ds. Kunciombo, Kedungpilang, Wonosamudro, Boyolali, Jawa Tengah</div>
           <div className="hidden font-mono text-[10px] tracking-[0.18em] text-[#f8f2e7]/55 lg:block">07° 47′ LS &nbsp;·&nbsp; 110° 22′ BT</div>
         </div>
         <div className="max-w-[930px]">
-          <p className="reveal mb-5 font-mono text-[10px] font-bold tracking-[0.22em] text-[#f5d688]">KARANG TARUNA ABDI MANUNGGAL &nbsp; / &nbsp; SEJAK 1987</p>
+           <p className="reveal mb-5 font-mono text-[10px] font-bold tracking-[0.22em] text-[#f5d688]">KARANG TARUNA ABDI MANUNGGAL</p>
           <h1 className="reveal reveal-delay-1 font-display text-[clamp(4.8rem,13vw,11.8rem)] font-semibold leading-[.78] tracking-[-0.07em]">
              Kunciombo<br /><em className="ml-[16%] text-[#f5d688]">Sejuta Pesona</em>
           </h1>
