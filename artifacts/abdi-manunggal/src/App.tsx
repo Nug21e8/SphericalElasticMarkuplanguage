@@ -19,6 +19,7 @@ import {
   X,
 } from 'lucide-react';
 import { Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
+import logo from '@assets/Penambahan_Slogan_Sejuta_Pesona_1787311366570.png';
 
 const queryClient = new QueryClient();
 
@@ -121,7 +122,7 @@ function Header() {
     <header className="absolute left-0 right-0 top-0 z-30 text-[#f8f2e7]">
       <div className="mx-auto flex max-w-[1320px] items-center justify-between px-6 py-6 lg:px-12">
         <a href="#beranda" onClick={close} className="flex items-center gap-3" data-testid="link-logo">
-          <span className="flex h-10 w-10 items-center justify-center border border-[#f8f2e7]/60 font-display text-xl italic">A</span>
+          <img src={logo} alt="Logo Karang Taruna Abdi Manunggal" className="h-11 w-11 object-cover mix-blend-darken" />
           <span className="hidden text-[11px] font-bold leading-[1.15] tracking-[0.12em] sm:block">KARANG TARUNA<br /><span className="font-normal tracking-[0.18em] text-[#f5d688]">ABDI MANUNGGAL</span></span>
         </a>
         <nav className="hidden items-center gap-9 md:flex" aria-label="Navigasi utama">
@@ -315,7 +316,7 @@ function Footer() {
     <footer className="bg-[#252943] px-6 pb-8 pt-14 text-[#f8f2e7] lg:px-12 lg:pt-16">
       <div className="mx-auto max-w-[1320px]">
         <div className="grid gap-12 border-b border-[#f8f2e7]/15 pb-14 lg:grid-cols-[1.3fr_.7fr_.7fr]">
-          <div><div className="flex items-center gap-3"><span className="flex h-10 w-10 items-center justify-center border border-[#f8f2e7]/60 font-display text-xl italic">A</span><span className="text-[11px] font-bold leading-[1.15] tracking-[0.12em]">KARANG TARUNA<br /><span className="font-normal tracking-[0.18em] text-[#f5d688]">ABDI MANUNGGAL</span></span></div><p className="mt-7 max-w-[290px] font-display text-2xl leading-tight text-[#f8f2e7]/85">Sejuta pesona,<br /><em className="text-[#f5d688]">satu kebersamaan.</em></p></div>
+          <div><div className="flex items-center gap-3"><img src={logo} alt="Logo Karang Taruna Abdi Manunggal" className="h-12 w-12 object-cover mix-blend-lighten" /><span className="text-[11px] font-bold leading-[1.15] tracking-[0.12em]">KARANG TARUNA<br /><span className="font-normal tracking-[0.18em] text-[#f5d688]">ABDI MANUNGGAL</span></span></div><p className="mt-7 max-w-[290px] font-display text-2xl leading-tight text-[#f8f2e7]/85">Sejuta pesona,<br /><em className="text-[#f5d688]">satu kebersamaan.</em></p></div>
           <div><p className="font-mono text-[9px] tracking-[0.18em] text-[#f5d688]">JELAJAH</p><div className="mt-5 flex flex-col items-start gap-3 text-sm text-[#f8f2e7]/70"><a href="#tentang" className="hover:text-[#f5d688]" data-testid="link-footer-tentang">Tentang kami</a><a href="#nilai" className="hover:text-[#f5d688]" data-testid="link-footer-nilai">Nilai kami</a><a href="#kegiatan" className="hover:text-[#f5d688]" data-testid="link-footer-kegiatan">Kegiatan</a><a href="#galeri" className="hover:text-[#f5d688]" data-testid="link-footer-galeri">Galeri</a></div></div>
           <div><p className="font-mono text-[9px] tracking-[0.18em] text-[#f5d688]">TEMUKAN KAMI</p><div className="mt-5 space-y-3 text-sm text-[#f8f2e7]/70"><p className="flex gap-3"><MapPin size={16} className="mt-0.5 shrink-0 text-[#ed7455]" /><span>Ds. Kunciombo, Wonosamudro<br />Boyolali, Jawa Tengah</span></p><a href="mailto:halo@abdimanunggal.id" className="flex items-center gap-3 hover:text-[#f5d688]" data-testid="link-footer-email"><Mail size={16} className="text-[#ed7455]" />halo@abdimanunggal.id</a><a href="https://instagram.com" target="_blank" rel="noreferrer" className="flex items-center gap-3 hover:text-[#f5d688]" data-testid="link-footer-instagram"><Instagram size={16} className="text-[#ed7455]" />@abdimanunggal</a></div></div>
         </div>
