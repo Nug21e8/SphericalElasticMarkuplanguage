@@ -19,7 +19,7 @@ import {
   X,
 } from 'lucide-react';
 import { Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
-import logo from '@assets/Penambahan_Slogan_Sejuta_Pesona_1787311366570.png';
+import logo from '@assets/LOGO_AM_1787311684631.png';
 
 const queryClient = new QueryClient();
 
