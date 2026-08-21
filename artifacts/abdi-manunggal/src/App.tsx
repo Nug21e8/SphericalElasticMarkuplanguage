@@ -180,7 +180,7 @@ function Hero() {
         <div className="max-w-[930px]">
           <p className="reveal mb-5 font-mono text-[10px] font-bold tracking-[0.22em] text-[#f5d688]">KARANG TARUNA ABDI MANUNGGAL &nbsp; / &nbsp; SEJAK 1987</p>
           <h1 className="reveal reveal-delay-1 font-display text-[clamp(4.8rem,13vw,11.8rem)] font-semibold leading-[.78] tracking-[-0.07em]">
-            Sejuta<br /><em className="ml-[16%] text-[#f5d688]">Pesona</em>
+             Kunciombo<br /><em className="ml-[16%] text-[#f5d688]">Sejuta Pesona</em>
           </h1>
           <div className="mt-10 flex flex-col gap-8 sm:ml-[42%] sm:flex-row sm:items-end sm:justify-between lg:mt-14">
             <p className="reveal reveal-delay-2 max-w-[290px] text-[15px] leading-7 text-[#f8f2e7]/78">Satu kampung, banyak cerita. Kami adalah ruang bertemunya anak muda untuk merawat yang dekat dan bermimpi lebih jauh.</p>
