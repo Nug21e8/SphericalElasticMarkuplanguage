@@ -129,10 +129,10 @@ function Header() {
         </a>
         <nav className="hidden items-center gap-9 md:flex" aria-label="Navigasi utama">
           {[
-            ['Tentang kami', '#tentang'],
-            ['Nilai', '#nilai'],
-            ['Kegiatan', '#kegiatan'],
-            ['Galeri', '#galeri'],
+            ['About Us', '#tentang'],
+            ['Values', '#nilai'],
+            ['Activities', '#kegiatan'],
+            ['Gallery', '#galeri'],
           ].map(([label, href]) => (
             <a key={href} href={href} className="nav-link text-[11px] font-semibold tracking-[0.08em] text-[#f8f2e7]/85 hover:text-[#f5d688]" data-testid={`link-nav-${label.toLowerCase().replace(' ', '-')}`}>{label}</a>
           ))}
@@ -147,10 +147,10 @@ function Header() {
       {open && (
         <nav className="border-t border-[#f8f2e7]/15 bg-[#252943] px-6 py-5 md:hidden" aria-label="Navigasi mobile">
           {[
-            ['Tentang kami', '#tentang'],
-            ['Nilai', '#nilai'],
-            ['Kegiatan', '#kegiatan'],
-            ['Galeri', '#galeri'],
+            ['About Us', '#tentang'],
+            ['Values', '#nilai'],
+            ['Activities', '#kegiatan'],
+            ['Gallery', '#galeri'],
             ['Sapa kami', '#kontak'],
           ].map(([label, href]) => (
             <a key={href} href={href} onClick={close} className="flex items-center justify-between border-b border-[#f8f2e7]/10 py-4 text-sm text-[#f8f2e7]" data-testid={`link-mobile-${label.toLowerCase().replace(' ', '-')}`}>
@@ -201,7 +201,7 @@ function About() {
     <section id="tentang" className="overflow-hidden bg-[#f8f2e7] py-24 text-[#252943] lg:py-36">
       <div className="mx-auto grid max-w-[1320px] gap-14 px-6 lg:grid-cols-[.82fr_1.18fr] lg:gap-28 lg:px-12">
         <div className="reveal">
-          <SectionLabel>01 / TENTANG KAMI</SectionLabel>
+          <SectionLabel>01 / ABOUT US</SectionLabel>
           <h2 className="mt-8 max-w-[390px] font-display text-5xl leading-[.98] tracking-[-0.045em] sm:text-6xl">Yang dekat, <em className="text-[#c95c46]">kami</em> rawat.</h2>
           <div className="mt-12 hidden border-l border-[#c95c46] pl-5 font-mono text-[10px] leading-5 tracking-[0.12em] text-[#6b6870] sm:block">DUSUN KARANGREJO<br />KABUPATEN SLEMAN<br />YOGYAKARTA</div>
         </div>
@@ -220,7 +220,7 @@ function Values() {
     <section id="nilai" className="bg-[#e8dfcf] py-24 lg:py-32">
       <div className="mx-auto max-w-[1320px] px-6 lg:px-12">
         <div className="reveal flex flex-col justify-between gap-7 border-b border-[#252943]/20 pb-10 lg:flex-row lg:items-end">
-          <div><SectionLabel>02 / NILAI YANG MENYATUKAN</SectionLabel><h2 className="mt-6 font-display text-5xl tracking-[-0.05em] text-[#252943] sm:text-6xl">Bukan sekadar <em className="text-[#c95c46]">ramai.</em></h2></div>
+          <div><SectionLabel>02 / VALUES THAT UNITE</SectionLabel><h2 className="mt-6 font-display text-5xl tracking-[-0.05em] text-[#252943] sm:text-6xl">Bukan sekadar <em className="text-[#c95c46]">ramai.</em></h2></div>
           <p className="max-w-[270px] text-[13px] leading-6 text-[#6b6870]">Karena kebersamaan kami punya arah, tiga kata ini menjadi kompas setiap langkah.</p>
         </div>
         <div className="grid divide-y divide-[#252943]/20 lg:grid-cols-3 lg:divide-x lg:divide-y-0">
@@ -318,7 +318,7 @@ function Footer() {
       <div className="mx-auto max-w-[1320px]">
         <div className="grid gap-12 border-b border-[#f8f2e7]/15 pb-14 lg:grid-cols-[1.3fr_.7fr_.7fr]">
           <div><div className="flex items-center gap-3"><img src={logo} alt="Logo Karang Taruna Abdi Manunggal" className="h-12 w-12 object-cover mix-blend-lighten" /><span className="text-[11px] font-bold leading-[1.15] tracking-[0.12em]">KARANG TARUNA<br /><span className="font-normal tracking-[0.18em] text-[#f5d688]">ABDI MANUNGGAL</span></span></div><p className="mt-7 max-w-[290px] font-display text-2xl leading-tight text-[#f8f2e7]/85">Sejuta pesona,<br /><em className="text-[#f5d688]">satu kebersamaan.</em></p></div>
-          <div><p className="font-mono text-[9px] tracking-[0.18em] text-[#f5d688]">JELAJAH</p><div className="mt-5 flex flex-col items-start gap-3 text-sm text-[#f8f2e7]/70"><a href="#tentang" className="hover:text-[#f5d688]" data-testid="link-footer-tentang">Tentang kami</a><a href="#nilai" className="hover:text-[#f5d688]" data-testid="link-footer-nilai">Nilai kami</a><a href="#kegiatan" className="hover:text-[#f5d688]" data-testid="link-footer-kegiatan">Kegiatan</a><a href="#galeri" className="hover:text-[#f5d688]" data-testid="link-footer-galeri">Galeri</a></div></div>
+          <div><p className="font-mono text-[9px] tracking-[0.18em] text-[#f5d688]">EXPLORE</p><div className="mt-5 flex flex-col items-start gap-3 text-sm text-[#f8f2e7]/70"><a href="#tentang" className="hover:text-[#f5d688]" data-testid="link-footer-tentang">About Us</a><a href="#nilai" className="hover:text-[#f5d688]" data-testid="link-footer-nilai">Values</a><a href="#kegiatan" className="hover:text-[#f5d688]" data-testid="link-footer-kegiatan">Activities</a><a href="#galeri" className="hover:text-[#f5d688]" data-testid="link-footer-galeri">Gallery</a></div></div>
           <div><p className="font-mono text-[9px] tracking-[0.18em] text-[#f5d688]">TEMUKAN KAMI</p><div className="mt-5 space-y-3 text-sm text-[#f8f2e7]/70"><p className="flex gap-3"><MapPin size={16} className="mt-0.5 shrink-0 text-[#ed7455]" /><span>Ds. Kunciombo, Wonosamudro<br />Boyolali, Jawa Tengah</span></p><a href="mailto:halo@abdimanunggal.id" className="flex items-center gap-3 hover:text-[#f5d688]" data-testid="link-footer-email"><Mail size={16} className="text-[#ed7455]" />halo@abdimanunggal.id</a><div className="grid grid-cols-3 gap-2 pt-2"><a href="https://www.instagram.com/abdimanunggal" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-[#f5d688]" data-testid="link-footer-instagram"><Instagram size={15} className="text-[#ed7455]" />Instagram</a><a href="https://www.tiktok.com/@abdimanunggal" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-[#f5d688]" data-testid="link-footer-tiktok"><span className="text-[15px] font-bold leading-none text-[#ed7455]">♪</span>TikTok</a><a href="https://www.youtube.com/@AbdiManunggal" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-[#f5d688]" data-testid="link-footer-youtube"><Youtube size={15} className="text-[#ed7455]" />YouTube</a></div></div></div>
         </div>
         <div className="flex flex-col justify-between gap-3 pt-7 font-mono text-[9px] tracking-[0.12em] text-[#f8f2e7]/40 sm:flex-row"><span>© 2024 KARANG TARUNA ABDI MANUNGGAL</span><span>DIBUAT DENGAN RASA MEMILIKI</span></div>
