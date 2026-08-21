@@ -21,6 +21,7 @@ import {
 } from 'lucide-react';
 import { Route, Switch, useLocation, Router as WouterRouter } from 'wouter';
 import logo from '@assets/LOGO_AM_1787311684631.png';
+import heroBackground from '@assets/bg_1787312385282.png';
 
 const queryClient = new QueryClient();
 
@@ -166,7 +167,7 @@ function Hero() {
   return (
     <section id="beranda" className="relative flex min-h-[720px] items-end overflow-hidden bg-[#252943] pb-14 pt-32 text-[#f8f2e7] sm:min-h-[800px] lg:min-h-[880px] lg:pb-20">
       <div className="absolute inset-0">
-        <img src="https://images.pexels.com/photos/240040/pexels-photo-240040.jpeg?auto=compress&cs=tinysrgb&w=2000" alt="Lanskap perbukitan di sekitar kampung" className="h-full w-full object-cover opacity-55" />
+        <img src={heroBackground} alt="Kebersamaan Karang Taruna Abdi Manunggal" className="h-full w-full object-cover object-center opacity-55" />
         <div className="absolute inset-0 bg-gradient-to-t from-[#252943] via-[#252943]/55 to-[#252943]/15" />
         <div className="absolute inset-0 bg-[#4f4850]/15 mix-blend-multiply" />
       </div>
