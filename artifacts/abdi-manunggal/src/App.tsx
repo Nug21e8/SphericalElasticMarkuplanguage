@@ -203,7 +203,7 @@ function About() {
         <div className="reveal">
           <SectionLabel>01 / ABOUT US</SectionLabel>
           <h2 className="mt-8 max-w-[390px] font-display text-5xl leading-[.98] tracking-[-0.045em] sm:text-6xl">Yang dekat, <em className="text-[#c95c46]">kami</em> rawat.</h2>
-          <div className="mt-12 hidden border-l border-[#c95c46] pl-5 font-mono text-[10px] leading-5 tracking-[0.12em] text-[#6b6870] sm:block">DUSUN KARANGREJO<br />KABUPATEN SLEMAN<br />YOGYAKARTA</div>
+          <div className="mt-12 hidden border-l border-[#c95c46] pl-5 font-mono text-[10px] leading-5 tracking-[0.12em] text-[#6b6870] sm:block">DUSUN KUNCIOMBO<br />KABUPATEN BOYOLALI<br />JAWA TENGAH</div>
         </div>
         <div className="reveal reveal-delay-1">
           <p className="max-w-[680px] font-display text-2xl leading-[1.3] text-[#252943] sm:text-3xl">Abdi Manunggal lahir dari keinginan sederhana: agar anak muda tidak hanya menjadi penonton di kampungnya sendiri.</p>
