@@ -1,0 +1,16 @@
+uploads = []
+generated = []
+
+[[outputs]]
+id = "wPPVroNP-jCOb1-Ue_pue"
+uri = "file://exports/abdi-manunggal-clean.zip"
+type = "unspecified"
+title = "Abdi Manunggal — ZIP Bersih"
+description = "Source website dan aset yang diperlukan tanpa node_modules, cache, tools internal, atau file sementara. Ukuran sekitar 6,2 MB."
+logical_id = "6ec9cb40-b1e8-487d-ba44-a58ed56ec1e5"
+content_hash = "sha256:44046de37611d4872f8117ee99401534793a70ab4adb68df8a471892c48b28d9"
+size = 6411448
+mtime_ms = 1787394267727
+storage_uri = "gcs://replit-rams-assets-pike/rams/assets/repl:ecc97a25-9f03-4020-b87f-8efa2d92802c/6ec9cb40-b1e8-487d-ba44-a58ed56ec1e5/bbff3b58-c4b4-472b-879c-d462eae2996d"
+storage_version_token = "1787394278040044"
+content_type = "application/octet-stream"
